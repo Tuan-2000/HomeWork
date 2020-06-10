@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_240"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="全部"
+        android:layout_marginTop="@dimen/dp_17"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:text="全部"
+        android:layout_marginTop="@dimen/dp_17"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="高一"
+        android:layout_marginTop="@dimen/dp_57"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:text="物理"
+        android:layout_marginTop="@dimen/dp_57"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="高二"
+        android:layout_marginTop="@dimen/dp_97"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:text="化学"
+        android:layout_marginTop="@dimen/dp_97"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="高三"
+        android:layout_marginTop="@dimen/dp_137"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:text="生物"
+        android:layout_marginTop="@dimen/dp_137"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="初一"
+        android:layout_marginTop="@dimen/dp_177"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:text="历史"
+        android:layout_marginTop="@dimen/dp_177"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="高一"
+        android:layout_marginLeft="@dimen/dp_79"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/dp_79"
+        android:layout_marginBottom="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="数学"
+        android:gravity="center"
+        android:textColor="#8C8A8A"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_39"
+        android:layout_height="@dimen/dp_20"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

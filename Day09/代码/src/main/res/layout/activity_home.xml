@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/home_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/radiogroup"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <RadioButton
+            android:drawableTop="@drawable/home_sel"
+            android:id="@+id/home_buthome"
+            android:layout_weight="1"
+            android:text="首页"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/course_sel"
+            android:id="@+id/home_course"
+            android:layout_weight="1"
+            android:text="课程"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/home_appoinment"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/appoint_sel"
+            android:text="约课"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/my_sel"
+            android:id="@+id/home_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="个人" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
